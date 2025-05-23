@@ -1,0 +1,76 @@
+{
+  "opportunities": [
+    {
+      "id": "1",
+      "title": "Clean Beach Campaign",
+      "organization": "Eco Warriors",
+      "location": "Lagos, Nigeria",
+      "datePosted": "2025-05-21",
+      "category": "Environment",
+      "description": "Join us to clean up Lagos beaches and raise awareness about plastic pollution.",
+      "duration": "1 day",
+      "skills": "Teamwork, Physical Fitness",
+      "email": "eco@warriors.org"
+    },
+    {
+      "id": "2",
+      "title": "Teach Kids to Code",
+      "organization": "Code4Naija",
+      "location": "Abuja, Nigeria",
+      "datePosted": "2025-05-20",
+      "category": "Education",
+      "description": "Volunteer as a coding mentor to teach children basic programming.",
+      "duration": "2 weeks",
+      "skills": "HTML, CSS, JavaScript",
+      "email": "volunteer@code4naija.org"
+    },
+    {
+      "id": "3",
+      "title": "Tree Planting Drive",
+      "organization": "Green Earth",
+      "location": "Enugu, Nigeria",
+      "datePosted": "2025-05-19",
+      "category": "Environment",
+      "description": "Help plant trees in local communities to promote sustainability.",
+      "duration": "3 days",
+      "skills": "Gardening, Teamwork",
+      "email": "green@earth.org"
+    },
+    {
+      "id": "4",
+      "title": "Online English Tutoring",
+      "organization": "LearnBridge",
+      "location": "Remote",
+      "datePosted": "2025-05-18",
+      "category": "Education",
+      "description": "Tutor students from underserved communities in English via Zoom.",
+      "duration": "1 month",
+      "skills": "Fluent English, Communication",
+      "email": "teach@learnbridge.com"
+    },
+    {
+      "id": "5",
+      "title": "Recycling Awareness Program",
+      "organization": "WasteLess Africa",
+      "location": "Ibadan, Nigeria",
+      "datePosted": "2025-05-17",
+      "category": "Environment",
+      "description": "Raise awareness in local schools about recycling and waste management.",
+      "duration": "1 week",
+      "skills": "Public Speaking, Environmental Knowledge",
+      "email": "contact@wasteless.org"
+    },
+    {
+      "id": "6",
+      "title": "STEM Bootcamp Assistant",
+      "organization": "Tech Educators Hub",
+      "location": "Port Harcourt, Nigeria",
+      "datePosted": "2025-05-16",
+      "category": "Education",
+      "description": "Support STEM bootcamp facilitators and help students with projects.",
+      "duration": "2 weeks",
+      "skills": "STEM Basics, Teaching Support",
+      "email": "info@techeduhub.org"
+    }
+  ]
+}
