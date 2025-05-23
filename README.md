@@ -1,5 +1,8 @@
 # 🌍 Volunteer Opportunities App
 
+![App Screenshot](./public/Screenshot%202025-05-23%20at%2011.12.29.png)
+
+
 A responsive React + TypeScript application that allows users to browse, filter, and add volunteer opportunities. Users can view detailed information about each opportunity and even add their own using a form modal. Data is managed using a local [JSON Server](https://github.com/typicode/json-server).
 
 ---
