@@ -74,15 +74,15 @@ export default function OpportunityForm({ onAdd }: Props) {
 
   return (
     <form onSubmit={handleSubmit} className="border p-4 rounded mb-6 shadow-sm">
-      {/* Form heading with icon */}
+    
       <h2 className="font-bold text-lg  flex items-center gap-2 text-black mt-5 mb-5">
         <ClipboardDocumentListIcon className="w-6 h-6 text-black" />
         Add New Opportunity
       </h2>
 
-      {/* Grid container for form inputs */}
+   
       <div className="grid grid-cols-2 gap-4 text-black ">
-        {/* Title input */}
+       
         <input
           name="title"
           value={form.title}
@@ -92,7 +92,6 @@ export default function OpportunityForm({ onAdd }: Props) {
           required
         />
 
-        {/* Organization input */}
         <input
           name="organization"
           value={form.organization}
@@ -102,7 +101,7 @@ export default function OpportunityForm({ onAdd }: Props) {
           required
         />
 
-        {/* Location input */}
+   
         <input
           name="location"
           value={form.location}
@@ -112,7 +111,7 @@ export default function OpportunityForm({ onAdd }: Props) {
           required
         />
 
-        {/* Category dropdown/select */}
+ 
         <select
           name="category"
           value={form.category}
@@ -126,7 +125,7 @@ export default function OpportunityForm({ onAdd }: Props) {
           <option value="Health">Health</option>
         </select>
 
-        {/* Duration input */}
+        
         <input
           name="duration"
           value={form.duration}
@@ -135,7 +134,7 @@ export default function OpportunityForm({ onAdd }: Props) {
           className="border px-2 rounded-lg mt-4 py-1"
         />
 
-        {/* Email input with validation */}
+  
         <input
           name="email"
           value={form.email}
@@ -148,7 +147,7 @@ export default function OpportunityForm({ onAdd }: Props) {
           <p className="text-red-600 text-sm col-span-2">{emailError}</p>
         )}
 
-        {/* Description textarea */}
+  
         <textarea
           name="description"
           value={form.description}
@@ -158,7 +157,7 @@ export default function OpportunityForm({ onAdd }: Props) {
           rows={3}
         />
 
-        {/* Skills input */}
+
         <input
           name="skills"
           value={form.skills}
@@ -168,7 +167,7 @@ export default function OpportunityForm({ onAdd }: Props) {
         />
       </div>
 
-      {/* Submit button */}
+
       <button
         type="submit"
         className=" bg-blue-600 hover:bg-blue-700 text-white w-full px-4 py-2 mt-7 rounded-lg transition"

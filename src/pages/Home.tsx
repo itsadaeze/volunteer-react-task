@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <div className="max-w-[2500px] py-10">
       
-      {/* Header section with title and add button */}
+     
       <div className="flex items-center justify-between mb-4">
         <h1 className="text-xl md:text-3xl font-bold">Volunteer Opportunities</h1>
         <button
@@ -71,7 +71,6 @@ export default function Home() {
         </button>
       </div>
 
-      {/* Filter bar component to control search and category filters */}
       <FilterBar
         search={search}
         category={category}
@@ -79,7 +78,7 @@ export default function Home() {
         onCategoryChange={setCategory}
       />
 
-      {/* Grid layout to display opportunity cards */}
+  
       <div className="grid gap-4 grid-cols-1 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
         {filtered.map((op) => (
           <OpportunityCard
@@ -101,7 +100,7 @@ export default function Home() {
             >
               ✕
             </button>
-            {/* Form component to add a new opportunity */}
+          
             <OpportunityForm onAdd={handleAdd} />
           </div>
         </div>
