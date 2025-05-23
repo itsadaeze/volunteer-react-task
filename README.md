@@ -40,8 +40,8 @@ A responsive React + TypeScript application that allows users to browse, filter,
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/itsadaeze/volunteer-react.git
-cd volunteer-react
+git clone https://github.com/itsadaeze/volunteer-react-task.git
+cd volunteer-react-project
 ```
 
 2. **Install dependencies**:
